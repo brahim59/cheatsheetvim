@@ -1,59 +1,72 @@
-p
+p     /* paragraphe */
 {
-    color: blue;
+    color:rgb(80, 0, 13);
     font-size: medium;
+}
+
+h1 {   /* header */
+text-align: center;
+background-color:rgb(255, 170, 170);
+font-weight: bold;
+
+
 
 }
 
-h2
-{ cible / contexte=résultat; 
-	color:lightgrey;
-}
-<h2 class=""></h2>
-
-h2
-{
+h2    /* presentation */
+{ 
+	color:black;
     font-size: x-large;
 }
-body
 
-{ background-color:grey;
+body   /* contenu */
 
+{ background-color:rgb(212,106,106);
 
-}	
-
-img
-{
-	margin: left;
-}
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightgrey;
-        display: none;
     }
-}
 
-table {
+table {          /* table */
+	
 	margin:auto;
-
+border: medium solid ;
  border-width:2px; 
- border-style:none; 
- border-color:blue;
+ font-size:40px;
+ border-color:rgb(33.3, 0, 0);
+ background-color:rgb(33.3, 0, 0);
  
  }
  td { 
- 	background-color: white;
- 	margin: auto;
+ 	background-color:rgb(255, 170, 170);
+ 	margin:auto;
  border-width:0px
   border-style:none; 
- border-color:blue;
+ 
  
  }
 
  thead { 
- 	margin: auto;
+ 	margin:auto;
  border-width:1px;
- border-style:solid; 
- border-color:blue;
+ border-style:none; 
+ 
  
  }
+
+
+ .command {        /* name table */
+ 	text-align: center;
+ 	color:black;
+ 	font-size: 26pt;
+ 	font-weight: bold;
+ 
+
+ }
+              /* liens */
+ .liens {
+ 	text-align: center;
+
+ }
+
+ 
+
+
